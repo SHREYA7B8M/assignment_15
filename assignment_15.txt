@@ -1,0 +1,18 @@
+The Time Complexity of the Quick sort for the various scenarios:
+Best Case= when the input array is already sorted, O(n log n).
+Average Case= O(n log n).
+Worst Case= O(n^2).
+
+
+Both Quick Sort and Merge Sort are considered efficient sorting algorithm, but Quick Sort is often preferred in practice due to its better cache performance and adaptability to the datasets. But when it comes to stability and consistent time complexity, Merge Sort is the preferred one specially for the worst case behavior avoidance.
+
+Strengths:
+  *) Faster and better application in practical scenarios as well for larger datasets.
+  *) In-place sorting, which requires only a small amount of additional memory for recursive calls.
+
+Weaknesses:
+  *) Unstable sorting, as Quick sort may change their relative positions when sorting elements with equal keys, hence proving to be a major damage to stability.
+   *) Adaptable issues, as it doesn.t adapt well to partially sorted or nearly sorted data as it's time complexity is independent on the initial order of elements. So Quick Sort can't be preferred for partially sorted data.
+		
+
+      
